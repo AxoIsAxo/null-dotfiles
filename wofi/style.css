@@ -1,0 +1,54 @@
+window {
+    margin: 0px;
+    border: 1px solid #bd93f9;
+    /* ALT: background-color: #282a36; */
+    background-color: rgba(40, 42, 54, 0.8); /* NEU: Mit 80% Deckkraft */
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #f8f8f2;
+    background-color: #44475a; /* Kann auch transparent gemacht werden, wenn gewünscht */
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    /* Das Hintergrund-Element für die Einträge, sollte transparent oder wie das Hauptfenster sein */
+    background-color: transparent; /* Wichtig, damit der Fensterhintergrund durchscheint */
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    /* Der äußere Container, sollte auch transparent sein */
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #f8f8f2;
+} 
+
+#entry.activatable #text {
+    color: #282a36;
+}
+
+#entry > * {
+    color: #f8f8f2;
+}
+
+#entry:selected {
+    background-color: #44475a;
+}
+
+#entry:selected #text {
+    font-weight: bold;
+}
