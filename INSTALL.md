@@ -1,25 +1,25 @@
 # Installing NULL Dotfiles
 
-sudo pacman -Syu
-sudo pacman -S yay
 
-``` 
-yay -S sddm
+`sudo pacman -Syu`
 
-yay -S hyprland
+`sudo pacman -S yay`
 
-yay -S hyprpaper
+`yay -S sddm` 
 
-yay -S hyprpicker
+`yay -S hyprland`
 
-yay -S waybar
+`yay -S hyprpaper`
 
-yay -S kitty
+`yay -S hyprpicker`
 
-yay -S librewolf-bin
+`yay -S waybar`
 
-yay -S wofi
-``` 
+`yay -S kitty`
 
-sudo systemctl enable sddm
+`yay -S librewolf-bin`
+
+`yay -S wofi`
+
+`sudo systemctl enable sddm`
 
