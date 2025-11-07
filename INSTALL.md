@@ -21,5 +21,14 @@
 
 `yay -S wofi`
 
+`yay -S git`
+
 `sudo systemctl enable sddm`
 
+`git clone addthatlater`
+
+`sudo mv ~/addthatlater/* ~/.config`
+
+`reboot`
+
+### You`re all set!
