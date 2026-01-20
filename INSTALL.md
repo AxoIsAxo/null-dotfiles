@@ -25,9 +25,9 @@
 
 `sudo systemctl enable sddm`
 
-`git clone addthatlater`
+`git clone https://github.com/AxoIsAxo/null-dotfiles.git`
 
-`sudo mv ~/addthatlater/* ~/.config`
+`sudo mv ~/null-dotfiles/* ~/.config`
 
 `reboot`
 
